@@ -76,9 +76,10 @@ DROP DATABASE databasename;
 
 
 # Join SQL
-![](https://www.sqltutorial.org/wp-content/uploads/2016/03/SQL-INNER-JOIN.png)
 
 ## Inner Join 
+![](https://mulham.github.io/assets/sql_inner-join.gif)
+
 ##### The INNER JOIN keyword selects records that have matching values in both tables. 
 ```javascript
 SELECT *
@@ -88,7 +89,7 @@ INNER JOIN Shippers ON TableName.PrimeryKey = OtherTable.ForginKey;
 ```
 
 ## SQL LEFT JOIN Keyword
-![](https://www.sqltutorial.org/wp-content/uploads/2016/03/SQL-LEFT-JOIN.png)
+![](https://mulham.github.io/assets/sql_left-join.gif)
 ##### The LEFT JOIN keyword returns all records from the left table (table1), and the matching records from the right table (table2). The result is 0 records from the right side, if there is no match.
 
 
@@ -101,7 +102,7 @@ ON table1.column_name = table2.column_name;
 ```
 
 ## SQL RIGHT JOIN Keyword
-![](http://www.codeproject.com/KB/database/Visual_SQL_Joins/RIGHT_JOIN.png)
+![](https://mulham.github.io/assets/sql_rightjoin.gif)
 ##### The RIGHT JOIN keyword returns all records from the right table (table2), and the matching records from the left table (table1). The result is 0 records from the left side, if there is no match.
 
 ```javascript
@@ -113,6 +114,7 @@ ON table1.column_name = table2.column_name;
 ```
 
 ## SQL FULL OUTER JOIN Keyword
+![](https://mulham.github.io/assets/sql_full-join.gif)
 ##### The FULL OUTER JOIN keyword returns all records when there is a match in left (table1) or right (table2) table records.
 
 ```jaavsript
