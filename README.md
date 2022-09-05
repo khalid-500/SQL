@@ -75,7 +75,7 @@ DROP DATABASE databasename;
 ```
 
 
-# Join Sql 
+# Join SQL
 ![](https://www.sqltutorial.org/wp-content/uploads/2016/03/SQL-INNER-JOIN.png)
 
 ## Inner Join 
@@ -85,4 +85,41 @@ SELECT *
 FROM Orders
 INNER JOIN NameTable ON TableName.PrimeryKey = OtherTable.ForginKey
 INNER JOIN Shippers ON TableName.PrimeryKey = OtherTable.ForginKey;
+```
+
+## SQL LEFT JOIN Keyword
+![](https://www.sqltutorial.org/wp-content/uploads/2016/03/SQL-LEFT-JOIN.png)
+##### The LEFT JOIN keyword returns all records from the left table (table1), and the matching records from the right table (table2). The result is 0 records from the right side, if there is no match.
+
+
+```javascript
+SELECT column_name(s)
+FROM table1
+LEFT JOIN table2
+ON table1.column_name = table2.column_name;
+
+```
+
+## SQL RIGHT JOIN Keyword
+![](http://www.codeproject.com/KB/database/Visual_SQL_Joins/RIGHT_JOIN.png)
+##### The RIGHT JOIN keyword returns all records from the right table (table2), and the matching records from the left table (table1). The result is 0 records from the left side, if there is no match.
+
+```javascript
+SELECT column_name(s)
+FROM table1
+RIGHT JOIN table2
+ON table1.column_name = table2.column_name;
+
+```
+
+## SQL FULL OUTER JOIN Keyword
+##### The FULL OUTER JOIN keyword returns all records when there is a match in left (table1) or right (table2) table records.
+
+```jaavsript
+SELECT column_name(s)
+FROM table1
+FULL OUTER JOIN table2
+ON table1.column_name = table2.column_name
+WHERE condition;
+
 ```
