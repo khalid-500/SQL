@@ -73,3 +73,12 @@ DROP TABLE table_name;
 DROP DATABASE databasename;
 
 ```
+
+
+# Join Sql 
+![Inner Joint](https://mulham.github.io/assets/sql_inner-join.gif)
+## Inner Join 
+
+```javascript
+
+```
