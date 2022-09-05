@@ -73,7 +73,19 @@ DROP TABLE table_name;
 DROP DATABASE databasename;
 
 ```
+# Update Row
+```javascript
+UPDATE Customers
+SET ContactName = 'Alfred Schmidt', City= 'Frankfurt'
+WHERE CustomerID = 1;
+```
 
+# Order By (Sort)
+```javascript
+SELECT * FROM users ORDER BY last_name ASC;
+SELECT * FROM users ORDER BY last_name DESC;
+
+```
 
 # Join SQL
 
