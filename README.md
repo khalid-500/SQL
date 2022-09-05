@@ -76,8 +76,10 @@ DROP DATABASE databasename;
 
 
 # Join Sql 
-![Inner Joint](https://mulham.github.io/assets/sql_inner-join.gif)
+![](https://mulham.github.io/assets/sql_inner-join.gif)
+
 ## Inner Join 
+## The INNER JOIN keyword selects records that have matching values in both tables. كل الداتا المتشابهه بين التابلين يتم ارجاعها 
 
 ```javascript
 
