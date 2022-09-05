@@ -49,7 +49,16 @@ DROP TABLE table_name;
 // DROP DATABASE Statement
 DROP DATABASE databasename;
 
-
-
 ```
-
+# Create Table 
+```javascript
+CREATE TABLE table_name (
+    column1 datatype,
+    column2 datatype,
+    column3 datatype,
+);
+```
+# Datatype 
+|        String           |        Integer      | 
+| -------------------     | ------------------  |
+|     varchar(255)        |        int          |
