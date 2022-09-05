@@ -14,9 +14,9 @@ CREATE TABLE table_name (
 |     varchar(255)    |        int         |  ENUM(val1, val2) |   BOOLEAN    |       NOT NULL DEFAULT NOW()         |
 
 # PROPERTY 
-|        NOT NULL       |       AUTO_INCREMENT       |   UNIQUE    |    FOREIGN KEY (Primery Key Column) REFERENCES Persons(Frogen Key Column)  |
-|-----------------------|- --------------------------|-------------|----------------------------------------------------------------------------|
-| DEFAULT 'Sandnes'     |       PRIMARY KEY          |    CHECK (Age>=18)|                          PRIMARY KEY (ID)                            |
+|        NOT NULL       |       AUTO_INCREMENT       |   UNIQUE    |     
+|-----------------------|- --------------------------|-------------|
+| DEFAULT 'Sandnes'     |       PRIMARY KEY          |    FOREIGN KEY (Primery Key Column) REFERENCES Persons(Frogen Key Column)|
 
 
 
