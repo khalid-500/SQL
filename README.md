@@ -77,10 +77,10 @@ DROP DATABASE databasename;
 
 # Join Sql 
 ![](https://mulham.github.io/assets/sql_inner-join.gif)
+![](https://cdn.programiz.com/cdn/farfuture/yOK6J2H6KVmI5KraCcW5JfYbZZjWAi2c-omUbRT8huA/mtime:1651825159/sites/tutorial2program/files/inner-join-in-sql.png)
 
 ## Inner Join 
-## The INNER JOIN keyword selects records that have matching values in both tables. كل الداتا المتشابهه بين التابلين يتم ارجاعها 
-
+##### The INNER JOIN keyword selects records that have matching values in both tables. 
 ```javascript
 
 ```
