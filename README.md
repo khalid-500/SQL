@@ -17,6 +17,8 @@ CREATE TABLE table_name (
 
 |      NOT NULL           |       AUTO_INCREMENT      |    UNIQUE                                                               |   
 | ----------------------  | ------------------------- | ------------------------------------------------------------------------|
+
+|-------------------------|---------------------------|-------------------------------------------------------------------------|
 |    DEFAULT 'Sandnes'    |        PRIMARY KEY        |  FOREIGN KEY (Primery Key Column) REFERENCES Persons(Frogen Key Column) |   
 
 
