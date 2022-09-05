@@ -1,5 +1,24 @@
 # SQL
 
+# Create Table 
+```javascript
+CREATE TABLE table_name (
+    column1 datatype Property,
+    column2 datatype  Property,
+    column3 datatype,
+);
+```
+# Datatype 
+|        String       |       Integer      |    Fixed Value    |   BOOLEAN    |             TIMESTAMPTZ              |
+| ------------------- | ------------------ | ------------------| -------------| -------------------------------------|
+|     varchar(255)    |        int         |  ENUM(val1, val2) |   BOOLEAN    |       NOT NULL DEFAULT NOW()         |
+
+# PROPERTY 
+|        NOT NULL       |       AUTO_INCREMENT       |   UNIQUE    |    FOREIGN KEY (Primery Key Column) REFERENCES Persons(Frogen Key Column)  |
+|-----------------------|- --------------------------|-------------|
+| DEFAULT 'Sandnes'     |       PRIMARY KEY          |    CHECK (Age>=18)|
+
+
 
 # SELECT
 ```javascript
@@ -50,15 +69,3 @@ DROP TABLE table_name;
 DROP DATABASE databasename;
 
 ```
-# Create Table 
-```javascript
-CREATE TABLE table_name (
-    column1 datatype,
-    column2 datatype,
-    column3 datatype,
-);
-```
-# Datatype 
-|        String           |        Integer      | 
-| -------------------     | ------------------  |
-|     varchar(255)        |        int          |
