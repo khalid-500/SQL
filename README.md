@@ -40,6 +40,16 @@ SELECT * FROM users WHERE NOT condition;
 # DELETE
 
 ```javascript
+// DELETE Statement Delete Object From Table
+DELETE FROM table_name WHERE condition;
+
+// DROP TABLE Statement
+DROP TABLE table_name;
+
+// DROP DATABASE Statement
+DROP DATABASE databasename;
+
+
 
 ```
 
