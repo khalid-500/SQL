@@ -15,9 +15,9 @@ CREATE TABLE table_name (
 
 # PROPERTY 
 
-|      NOT NULL        |       AUTO_INCREMENT      |    UNIQUE   |   BOOLEAN    |             TIMESTAMPTZ              |
-| ------------------- | ------------------ | ------------------| -------------| -------------------------------------|
-|    DEFAULT 'Sandnes'    |        PRIMARY KEY           |  FOREIGN KEY (Primery Key Column) REFERENCES Persons(Frogen Key Column) |   BOOLEAN    |       NOT NULL DEFAULT NOW()         |
+|      NOT NULL           |       AUTO_INCREMENT      |    UNIQUE                                                               |   
+| ----------------------  | ------------------------- | ------------------------------------------------------------------------|
+|    DEFAULT 'Sandnes'    |        PRIMARY KEY        |  FOREIGN KEY (Primery Key Column) REFERENCES Persons(Frogen Key Column) |   
 
 
 
