@@ -77,10 +77,13 @@ DROP DATABASE databasename;
 
 # Join Sql 
 ![](https://mulham.github.io/assets/sql_inner-join.gif)
-![](https://cdn.programiz.com/cdn/farfuture/yOK6J2H6KVmI5KraCcW5JfYbZZjWAi2c-omUbRT8huA/mtime:1651825159/sites/tutorial2program/files/inner-join-in-sql.png)
+![](https://www.temok.com/blog/wp-content/uploads/2021/03/01-1.jpg)
 
 ## Inner Join 
 ##### The INNER JOIN keyword selects records that have matching values in both tables. 
 ```javascript
-
+SELECT *
+FROM Orders
+INNER JOIN NameTable ON TableName.PrimeryKey = OtherTable.ForginKey
+INNER JOIN Shippers ON TableName.PrimeryKey = OtherTable.ForginKey;
 ```
