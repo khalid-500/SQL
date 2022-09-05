@@ -9,9 +9,9 @@ CREATE TABLE table_name (
 );
 ```
 # Datatype 
-|        String       |       Integer      |    Fixed Value    |   BOOLEAN    |             TIMESTAMPTZ              |
-| ------------------- | ------------------ | ------------------| -------------| -------------------------------------|
-|     varchar(255)    |        int         |  ENUM(val1, val2) |   BOOLEAN    |       NOT NULL DEFAULT NOW()         |
+|        String       |       Integer      |    Fixed Value    |   BOOLEAN    |             TIMESTAMPTZ              |     Text      |    Priimery Key   |
+| ------------------- | ------------------ | ------------------| -------------| -------------------------------------|-------------- |-----------------  |
+|     varchar(255)    |        int         |  ENUM(val1, val2) |   BOOLEAN    |       NOT NULL DEFAULT NOW()         |     text      |      UUID         |
 
 # PROPERTY 
 
