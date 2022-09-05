@@ -15,8 +15,8 @@ CREATE TABLE table_name (
 
 # PROPERTY 
 |        NOT NULL       |       AUTO_INCREMENT       |   UNIQUE    |    FOREIGN KEY (Primery Key Column) REFERENCES Persons(Frogen Key Column)  |
-|-----------------------|- --------------------------|-------------|
-| DEFAULT 'Sandnes'     |       PRIMARY KEY          |    CHECK (Age>=18)|
+|-----------------------|- --------------------------|-------------|----------------------------------------------------------------------------|
+| DEFAULT 'Sandnes'     |       PRIMARY KEY          |    CHECK (Age>=18)|                          PRIMARY KEY (ID)                            |
 
 
 
