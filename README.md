@@ -137,3 +137,20 @@ ON table1.column_name = table2.column_name
 WHERE condition;
 
 ```
+
+
+## JSON Array from SQL
+```javascript 
+
+    //Select All Property From Main Table 
+    select fullname,
+    
+    //Select The Other Table AS array inside the object  
+    (select array_to_json(array_agg(row_to_json(postes_alias)))
+    from (select * from postes where persondopostid = regusterid)postes_alias) as postess
+    
+    //All Data Will Git From The Main 
+    from regusters;
+
+
+```
